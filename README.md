@@ -13,7 +13,7 @@ Jalankan Redis Container:
 
 Untuk menjalankan Redis dalam container Docker, gunakan perintah berikut:
 bash
-Copy code
+<br>Copy code</br>
 docker run --name my-redis-container -p 6379:6379 -d redis
 --name my-redis-container memberikan nama untuk container Redis yang Anda jalankan. Anda dapat mengganti my-redis-container dengan nama yang Anda inginkan.
 -p 6379:6379 menghubungkan port 6379 di host Anda dengan port 6379 di container Redis. Ini memungkinkan Anda untuk terhubung ke Redis dari host Anda.
